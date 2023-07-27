@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    padding: 1rem;
+    background: var(--white);
+    color: var(--blue-500);
+}
+
+nav > p {
+    margin: 0 0.75rem;
+}
+
+nav p:first-child {
+    flex-grow: 1;
+}
