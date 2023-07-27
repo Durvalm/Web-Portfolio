@@ -1,0 +1,12 @@
+
+.projectSection {
+    background: var(--white-100);
+    padding: 4rem 0;
+}
+
+.projectSection h1 {
+    text-align: center;
+    color: var(--blue-500);
+}
+
+
