@@ -29,4 +29,13 @@ article {
 
 .aboutText {
     flex: 1;
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+
+    article {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

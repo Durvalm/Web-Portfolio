@@ -6,13 +6,13 @@ const cards = [
         'id': 1,
         'title': 'Multi-tenant barbershop app',
         'content': "Application built in a monolith architecture, using Python and its framework Django. It consists of a website for barbershops, where customers can schedule a visit, and pay for it. There's also a dashboard that shows analytics for barbershop owners. The app is multi-tenant, and this single piece of software can generate a website with a custom domain and layout for many different barbershops.",
-        'links': ['case study', 'live link', 'github']
+        'links': {'Github': 'https://github.com/Durvalm/Appointment-Scheduler'}
     },
     {
         'id': 2,
         'title': 'Shipping label automation',
-        'content': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        'links': ['case study', 'github']
+        'content': "Application built utilizing Python and Flask, it takes advantage of Shippo's API to create a dashboard to manage all shipments of a company. This project was built for a client, and it saves many hours of work per week.",
+        'links': {'Documentation': 'https://medium.com/@durvz/i-created-a-shipping-automation-tool-with-shippo-200-shipping-labels-created-in-1-month-c4a6b7c1a948', 'Github': 'https://github.com/Durvalm/Shipping_Label_Automation'}
     }
 ]
 

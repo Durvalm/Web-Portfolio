@@ -4,13 +4,30 @@
     border: 1px solid #dddddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 2rem;
     width: 26.75rem;
     min-height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card > p {
+    margin: 1rem 0;
 }
 
 .project {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
+}
+
+.links {
+    margin-top: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.links > a {
+    text-decoration: none;
 }

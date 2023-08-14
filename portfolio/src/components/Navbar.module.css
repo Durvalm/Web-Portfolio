@@ -1,20 +1,30 @@
 nav {
     display: flex;
+    justify-content: space-between;
     padding: 1rem;
     background: var(--white);
     color: var(--blue-500);
 }
 
-nav p {
-    margin: 0 0.75rem;
+.start {
+    display: flex;
+    align-items: center;
 }
 
-nav a {
+.start img {
+    max-width: 2rem;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+}
+
+.end a {
     margin: 0 0.75rem;
     text-decoration: none;
     color: var(--blue-500);
 }
 
-nav p:first-child {
-    flex-grow: 1;
-}
+
+

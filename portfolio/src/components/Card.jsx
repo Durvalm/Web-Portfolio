@@ -4,14 +4,16 @@ export function Card(props){
     return (
         <div className={styles.project}>
         <div className={styles.card}>
-                <h5>{props.title}</h5>
-                <p>{props.content}</p>
-                
-                {props.links.map(link => {
-                    return (
-                        <a href="">{link}</a>
-                    )
-                })}
+          <h4>{props.title}</h4>
+          <p>{props.content}</p>
+          <div className={styles.links} >
+            {Object.entries(props.links).map(([name, link], index) => {
+                return (
+                  <a href={link} target="_blank" key={index} rel="noreferrer">{name}</a>                
+                )
+              })
+            }
+          </div>
         </div>
         </div>
     )

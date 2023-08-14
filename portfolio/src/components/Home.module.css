@@ -42,3 +42,13 @@ header {
     color: var(--blue-600);
     font-size: 1.5rem;
 }
+
+@media (max-width: 768px){
+
+    header {
+        flex-direction: column;
+    }
+    .cover {
+        display: none;
+    }
+}
