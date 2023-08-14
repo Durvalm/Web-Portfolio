@@ -9,10 +9,10 @@ export function Home() {
             <h1>Durval Maia</h1>
             <h4>Software Engineer</h4>
             <div className={styles.icons}>
-              <a href="https://github.com/durvalm" target="_blank">
+              <a href="https://github.com/durvalm" >
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/durval-maia" target="_blank">
+              <a href="https://www.linkedin.com/in/durval-maia">
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>

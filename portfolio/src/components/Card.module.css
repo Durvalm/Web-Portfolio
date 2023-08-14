@@ -6,6 +6,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     width: 26.75rem;
+    min-height: 15rem;
 }
 
 .project {

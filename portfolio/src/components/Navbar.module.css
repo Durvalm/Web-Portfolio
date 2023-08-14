@@ -5,8 +5,14 @@ nav {
     color: var(--blue-500);
 }
 
-nav > p {
+nav p {
     margin: 0 0.75rem;
+}
+
+nav a {
+    margin: 0 0.75rem;
+    text-decoration: none;
+    color: var(--blue-500);
 }
 
 nav p:first-child {

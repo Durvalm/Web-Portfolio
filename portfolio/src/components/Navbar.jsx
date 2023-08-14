@@ -5,8 +5,8 @@ export function Navbar(){
     <nav>
         <p>X</p>
         <p>Home</p>
-        <p>About</p>
-        <p>Projects</p>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
         <p>Resume</p>
     </nav>
     )

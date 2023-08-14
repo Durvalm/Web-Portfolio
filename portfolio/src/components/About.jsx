@@ -3,7 +3,7 @@ import myImg from '../assets/durval.jpg'
 
 export function About() {
     return (
-        <section>
+        <section id="about">
             <h1>About Me</h1>
 
             <article>
@@ -13,7 +13,11 @@ export function About() {
             </div>
 
             <div className={styles.aboutText} >
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Hi, my name is Durval! I'm Brazilian, a full-stack software developer who is currently pursuing a bachelor's degree in computer science.</p>
+            {/* <p>I started programming when I was 16 years old, and I fell in love with the ability of building things and with the "magic" that technology has.</p> */}
+            <p>I'm well versed on both backend and frontend development, my main tools are: Python, Javascript, ReactJS, Django, Flask, FastAPI, SQL, Git, HTML, CSS, etc.</p>
+            <p>I speak 5 languages: Portuguese, English, Spanish, Italian, and Russian. </p>
+            <p>I have many projects that showcase my skills in building backend systems, APIs, frontend interfaces, and even more complex software such as a multi-tenant application. </p>
             </div>
 
             </article>
